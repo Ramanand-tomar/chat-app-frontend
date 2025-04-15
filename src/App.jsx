@@ -4,7 +4,7 @@ import { Chat } from './chat'
 // import music from './mixkit-tile-game-reveal-960.wav';
 
 const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL;
-const socket = io.connect("http://localhost:1000")
+const socket = io.connect(SOCKET_SERVER_URL)
 
 
 const App = () => {
